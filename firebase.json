@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "go-vind-dev",
+          "configurations": {
+            "web": "1:613908596783:web:afb84407869a1b00521eda"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "target": "target",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

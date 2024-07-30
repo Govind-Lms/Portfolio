@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "go-vind-dev"
+  },
+  "targets": {
+    "go-vind-dev": {
+      "hosting": {
+        "target": [
+          "govin"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
